@@ -80,7 +80,7 @@ define_hls_config	dut	BASIC		;# A synthesis configuration of the hls_module
 define_hls_config       dut     PIPELINE -DII=2
 define_hls_config	dut 	UNROLL_FILL
 define_hls_config	dut	UNROLL_ALL
-define_hls_config	dut	FLAT_UNROLL_ALL --flatten_arrays=all -DUNROLL_ALL
+define_hls_config	dut	FLAT --flatten_arrays=all 
 
 #
 # Simulation Configurations
